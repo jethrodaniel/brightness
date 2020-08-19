@@ -1,6 +1,12 @@
 # brightness
 
 ```
+wget https://raw.githubusercontent.com/jethrodaniel/brightness/master/brightness
+sudo ruby ./brightness install
+```
+or
+
+```
 git clone https://github.com/jethrodaniel/brightness
 cd brightness
 gem build brightness.gemspec
